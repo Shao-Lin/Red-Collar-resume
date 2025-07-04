@@ -1,0 +1,11 @@
+body {
+  background-color: black;
+  color: #fff;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../../fonts/Inter_18pt-Black.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
