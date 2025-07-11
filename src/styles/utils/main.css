@@ -1,11 +1,24 @@
 body {
   background-color: black;
   color: #fff;
+  font-family: "TTCommons", sans-serif;
 }
 
 @font-face {
   font-family: "Inter";
   src: url("../../fonts/Inter_18pt-Black.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RedCollar";
+  src: url("../../fonts/Redcollar.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TTCommons";
+  src: url("../../fonts/TTCommons-Black.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }

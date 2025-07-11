@@ -7,17 +7,14 @@
   padding: 0;
 }
 
-/* -------- Base -------- */
 .page {
   background: #000;
   color: #fff;
-  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   line-height: 1.4;
   min-height: 100vh;
 }
 
-/* -------- Profile Section -------- */
 .profile {
   position: relative;
   margin: 40px 0 0 40px;
@@ -37,19 +34,29 @@
   height: 454px;
   background: #f51b1b;
   border-radius: 24px 24px 0 0;
-  margin-top: -48px; /* накладываем на фото */
+  margin-top: -48px;
   padding: 40px 24px;
   display: flex;
   flex-direction: column;
   gap: 40px;
 }
 
-/* -------- Name Block -------- */
 .name {
   display: flex;
   flex-direction: column;
   gap: 8px;
   color: #fff;
+}
+.name__element {
+  width: 48px;
+  height: 24px;
+  position: absolute;
+  background-color: #f51b1b;
+  left: 50%;
+  top: -23.5px;
+  transform: translateX(-50%);
+  z-index: 1000;
+  clip-path: path("M0 24 C0 24, 24 24, 24 0 C24 0, 24 24, 48 24");
 }
 
 .name__title {
@@ -57,6 +64,7 @@
   font-size: 24px;
   line-height: 28px;
   letter-spacing: -0.02em;
+  font-family: "RedCollar", sans-serif;
 }
 
 .name__subtitle {
@@ -66,7 +74,6 @@
   letter-spacing: -0.02em;
 }
 
-/* -------- Contacts -------- */
 .contacts {
   display: flex;
   flex-direction: column;
